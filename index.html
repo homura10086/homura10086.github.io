@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homura10086 的站点</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #fafafa; color: #111; }
+  h1 { border-bottom: 2px solid #0969da; padding-bottom: 10px; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 30px; }
+  .card { background: #fff; border: 1px solid #d0d7de; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+  footer { margin-top: 40px; color: #888; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<h1>👋 你好，我是 homura10086</h1>
+<div class="meta">最后更新：<span id="date"></span></div>
+
+<div class="card">
+  <h2>关于本站</h2>
+  <p>这是个人静态站点，通过 GitHub Pages 托管。<br>内容纯静态 HTML/CSS，后续可自行添加需要的页面。</p>
+</div>
+
+<div class="card">
+  <h2>快速链接</h2>
+  <ul>
+    <li><a href="https://homura10086.github.io">站点首页</a></li>
+    <li><a href="https://github.com/homura10086">GitHub 主页</a></li>
+  </ul>
+</div>
+
+<footer>
+  托管于 <a href="https://pages.github.com">GitHub Pages</a> &middot;
+  主题：最小静态模板
+</footer>
+
+<script>
+document.getElementById("date").textContent = new Date().toLocaleDateString("zh-CN", {year:"numeric", month:"long", day:"numeric"});
+</script>
+</body>
+</html>
