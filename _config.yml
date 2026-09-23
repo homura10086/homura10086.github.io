@@ -2,3 +2,19 @@ title: homura10086 的技术博客
 description: 个人技术博客，记录 AI、前端、系统架构相关的探索。
 theme: minima
 permalink: /:title/
+
+# 导航菜单（Minima 支持）
+nav_list:
+  - title: 首页
+    url: /
+  - title: 文章
+    url: /tag/技术/
+  - title: GitHub
+    url: https://github.com/homura10086
+
+# 外观
+header_pages:
+  - index.html
+
+# Minima 原生支持的自定义项
+logo: /assets/images/favicon.svg
